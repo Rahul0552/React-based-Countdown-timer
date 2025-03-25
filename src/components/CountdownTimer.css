@@ -1,0 +1,102 @@
+
+body{
+    background-color: #181414; 
+    color: #f0e8e8;
+
+}
+body:hover{
+background-image: radial-gradient( circle 673px at 10% 20%,  rgba(255,220,163,1) 0%, rgba(129,255,239,1) 48.5%, rgba(139,172,251,1) 97.8% );
+color: #000;
+}
+
+
+/* src/components/CountdownTimer.css */
+.countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; 
+    /* background-color: #e4e0e0;  */
+}
+
+.countdown-timer1 {background-image: linear-gradient(to right, #d12411 0%, #ffc500  51%, #c21500  100%)}
+.countdown-timer1 {
+   margin: 10px;
+   padding: 7px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eeeeeea9;
+   border-radius: 10px;
+   /* display: block; */
+ }
+
+ .countdown-timer1:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.Countdown_Starts{
+    font-size: 55px;
+}
+span{
+    font-size: 85px;
+    font-weight: bold;
+    color: #c21500;
+    
+}
+.text{
+    font-size: 45px;
+    
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    
+}
+
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button styles for different gradient colors */
+.button-start {
+    background: linear-gradient(90deg, #28a745, #85e89e); /* Green gradient for Start */
+}
+
+.button-start:hover {
+    background: linear-gradient(90deg, #218838, #6dbf6e); /* Darker green gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.button-stop {
+    background: linear-gradient(90deg, #dc3545, #ff6b81); /* Red gradient for Stop */
+}
+
+.button-stop:hover {
+    background: linear-gradient(90deg, #c82333, #ff4c5b); /* Darker red gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.button-reset {
+    background: linear-gradient(90deg, #007bff, #66b3ff); /* Blue gradient for Reset */
+}
+
+.button-reset:hover {
+    background: linear-gradient(90deg, #0056b3, #3399ff); /* Darker blue gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
